@@ -22,4 +22,4 @@ All facts and numbers were verified against Reuters, AP, BBC, CNBC and the offic
 python3 main.py
 ```
 
-Output: `entry.png`, 1024x1024, deterministic — running it twice produces a byte-identical file. Only dependency is Pillow. Set `MAKEFUN_OUTPUT_DIR` to choose where `entry.png` is written (default `./output/`).
+Output: `entry.png`, 1024x1024, deterministic — running it twice produces a byte-identical file. No dependencies: Python standard library only, it copies the pre-rendered `entry.png` in this repo. Set `MAKEFUN_OUTPUT_DIR` to choose where `entry.png` is written (default `/output`).
